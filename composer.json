@@ -44,11 +44,6 @@
         "lint": "vendor/bin/php-cs-fixer fix --dry-run --verbose --diff",
         "lint-fix": "vendor/bin/php-cs-fixer fix --verbose"
     },
-    "extra": {
-        "branch-alias": {
-            "dev-master": "2.x-dev"
-        }
-    },
     "prefer-stable": true,
     "minimum-stability": "dev"
 }
